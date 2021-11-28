@@ -25,14 +25,23 @@ Logic :
 # Installing dependencies
 
 npm i axios
+
 npm i bootstrap
+
 npm i ejs
+
 npm i fs
+
 npm i jest
+
 npm i path
+
 npm i pg
+
 npm i qs
+
 npm i @vitalets/google-translate-api
+
 
 # Running the project
 
