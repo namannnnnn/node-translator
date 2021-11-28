@@ -24,7 +24,15 @@ Logic :
         now another thread is being used parallely so that we can save the text that needs to be translated in all languages to increase efficiency of the code.
     }
 
+# Database Schema
 
+id SERIAL PRIMARY KEY
+
+text_to_translate TEXT NOT NULL (Input)
+
+text_translated TEXT NOT NULL (Output)
+
+text_translated_language TEXT NOT NULL (In which language the user wants to translate)
 
 # Installing dependencies
 
