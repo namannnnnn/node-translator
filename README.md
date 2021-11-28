@@ -4,7 +4,10 @@ I've made a backend server which uses googles's translator api to translate text
 
 # Design decisions
 
-Here I've created a NodeJS based backend working with ejs as views engine and for database I've used PostgreSQL. I'm using NodeJs as the backend script because it is ligtweight and has modules which can be easily imported and learnt. I've used EJS views as my frontend because my main focus was on the backend and just wanted to show my results being rendered. I've used PostgreSQL for my database as it supports complex structures and a breadth of built-in and user-defined data types.
+-  Here I've created a NodeJS based backend working with ejs as views engine and for database I've used PostgreSQL.
+-  I'm using NodeJs as the backend script because it is ligtweight and has modules which can be easily imported and learnt.
+-  I've used EJS views as my frontend because my main focus was on the backend and just wanted to show my results being rendered.
+-  I've used PostgreSQL for my database as it supports complex structures and a breadth of built-in and user-defined data types.
 
 # Insight to the project
 
