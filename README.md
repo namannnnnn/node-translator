@@ -54,6 +54,7 @@ npm run test
 --> This testing was done using JEST
 
 test 1: to check if it can translate
+
 test 2: to check if our time has been minimised after smartly caching rather than calling the api
 
 
