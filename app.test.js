@@ -40,7 +40,7 @@ const translate_text = (queryString ) => {
     return output;
 }
 
-// results -> good_morning.txt
+// to test simple translations
 
 describe("POST /", () => {
     describe("Simple translation", () => {
@@ -51,6 +51,8 @@ describe("POST /", () => {
         })
         
     });
+
+    // to test the efficiency increase after caching    
 
     describe("Checking if time has been reduced after caching", () => {
         // Make Regular call
@@ -73,22 +75,7 @@ describe("POST /", () => {
             //This means now all the other translations are being saved parallely and for the second time when we want to translate it into any other language it direct;y gets it from database
             expect(apiTime).toBeGreaterThan(callAfterCacheTime);
         });
-        // Make Same call again
-        // test("Test send good evening text", () => {
-        //     const startTime = performance.now();
-        //     const expectedText =  fs.readFile('good_evening.txt','utf-8',function(err,res){});
-        //     const output = translate_text('good+evening');
-        //     expect(output).toBe(expectedText);
-        //     const endTime = performance.now();
-        //     console.log(endTime-startTime);
-        //     expect(endTime-startTime).toBeLessThan(EXPECTED_CACHED_API_CALL_TIME);
-        // });
+\
     });
     
 })
-
-
-
-
-//s1=time.timestart, make call, expect,s2 = time.timeend
-//s3=time.timestart, make call, expect,s4 = time.timeend
